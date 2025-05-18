@@ -14,7 +14,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 # Initialize the Gemini model
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-def food_scanner():
+def run_food_scanner():
     def get_nutrition_response(image, prompt):
         try:
             response = model.generate_content([image, prompt])
@@ -216,5 +216,5 @@ def food_scanner():
             else:
                 st.error("⚠ Could not retrieve nutritional data. Try again or check the image quality.")
 
-#if __name__ == "__main__":
-#    food_scanner()
+if __name__ == "__main__":
+    run_food_scanner()
