@@ -1,0 +1,15 @@
+streamlit
+firebase-admin
+python-dotenv
+google-generativeai
+requests
+pandas
+opencv-python-headless==4.7.0.72
+numpy
+mediapipe
+Pillow
+streamlit-image-coordinates
+streamlit-drawable-canvas
+streamlit-lottie
+gspread
+oauth2client
