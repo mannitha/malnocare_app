@@ -3,8 +3,8 @@ from supabase import create_client, Client
 import uuid
 
 # Supabase setup
-SUPABASE_URL = "https://YOUR_SUPABASE_URL.supabase.co"
-SUPABASE_KEY = "YOUR_SUPABASE_API_KEY"
+SUPABASE_URL = "https://qtpjctlrxoeeqchifyiz.supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF0cGpjdGxyeG9lZXFjaGlmeWl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc2MzU1MDYsImV4cCI6MjA2MzIxMTUwNn0.jaVyzrfo88VQZoSdHj0yGWtMxJdhRuUX5I_RqO5Y8CU"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Utility: Check login
